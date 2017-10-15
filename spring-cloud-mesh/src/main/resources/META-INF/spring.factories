@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+io.openfoundation.spring.cloud.mesh.discovery.MeshAutoConfiguration
+
+
+# Discovery Client Configuration
+org.springframework.cloud.client.discovery.EnableDiscoveryClient=\
+io.openfoundation.spring.cloud.mesh.discovery.MeshDiscoveryClientConfiguration
