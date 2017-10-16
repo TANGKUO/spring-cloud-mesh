@@ -11,7 +11,9 @@ import org.springframework.cloud.netflix.ribbon.SpringClientFactory;
 import org.springframework.context.annotation.Configuration;
 
 import io.openfoundation.spring.cloud.mesh.ConditionalOnLinkerdEnabled;
-
+/**
+ * @author henryz
+ */
 @Configuration
 @EnableConfigurationProperties
 @ConditionalOnLinkerdEnabled

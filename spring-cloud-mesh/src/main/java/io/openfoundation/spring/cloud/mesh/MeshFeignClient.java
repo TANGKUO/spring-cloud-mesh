@@ -8,6 +8,9 @@ import java.io.IOException;
 import java.net.URI;
 import java.util.*;
 
+/**
+ * @author henryz
+ */
 public class MeshFeignClient implements Client {
 
     private final Client delegate;
